@@ -215,7 +215,7 @@ function initAudio(audioLoader) {
 // Update mouse coordinates on mouse move
 document.addEventListener('mousemove', (event) => {
     // Normalize mouse coordinates to the range [-1, 1]
-    mouse.x = -(event.clientX / window.innerWidth) * 2 - 1
+    mouse.x = (event.clientX / window.innerWidth) * 2 - 1
     mouse.y = -(event.clientY / window.innerHeight) * 2 + 1
     
 })
