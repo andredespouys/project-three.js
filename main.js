@@ -34,7 +34,7 @@ const matcapTexture = textureLoader.load('/textures/1.png')
 matcapTexture.colorSpace = THREE.SRGBColorSpace
 
 // Fonts
-const fontPath  = '../public/Chakra Petch_Bold.json';
+const fontPath  = './Chakra Petch_Bold.json';
 const fontLoader = new FontLoader()
 fontLoader.load(
     fontPath,
